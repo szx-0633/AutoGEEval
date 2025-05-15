@@ -5,7 +5,6 @@ import json
 import re
 import pandas as pd
 import shutil
-from tqdm import tqdm
 
 
 def generate_gee_atomic_test_code(operators_file, output_path, model_name="qwen-max-2025-01-25", model_provider="aliyun"):

@@ -1,0 +1,9 @@
+earthengine-api
+geemap
+pyyaml
+openai
+ollama
+numpy
+pandas
+rasterio
+shapely
