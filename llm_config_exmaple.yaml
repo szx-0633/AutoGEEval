@@ -1,0 +1,29 @@
+all_models:
+  - provider: "openai"
+    model_name: ["gpt-4o","gpt-4o-mini", "o3-mini"]
+    api_key: "your-api-key"
+    base_url: "https://api.openai.com/v1"
+  - provider: "aliyun"
+    model_name: ["qwen-max-2025-01-25", "qwq-32b", "qwen2.5-32b-instruct", "qwen2.5-coder-32b-instruct"]
+    api_key: "your-api-key"
+    base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  - provider: "volcengine"
+    model_name: ["deepseek-r1-250120","deepseek-v3-241226","deepseek-v3-250324"]
+    api_key: ""
+    base_url: "https://ark.cn-beijing.volces.com/api/v3/"
+  - provider: "ollama"
+    model_name: ["qwen2.5:7b", "qwen2.5:3b","qwen2.5-coder:7b","qwen2.5-coder:3b", "codellama:7b", "geocode-gpt:latest", "deepseek-coder-v2:16b"]
+    api_key: "none"
+    base_url: "http://localhost:11434"
+  - provider: "anthropic"
+    model_name: ["claude-3-7-sonnet-20250219"]
+    api_key: "your-api-key"
+    base_url: "https://api.anthropic.com/v1/"
+  - provider: "deepseek"
+    model_name: ["deepseek-chat", "deepseek-reasoner"]
+    api_key: "your-api-key"
+    base_url: "https://api.deepseek.com/v1"
+  - provider: "google"
+    model_name: ["gemini-2.0-pro-exp-02-05"]
+    api_key: "your-api-key"
+    base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
